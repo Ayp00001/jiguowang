@@ -10,8 +10,9 @@ header{
     width: 1423px;
     height: 75px;
     border-color: #ffff;
-    margin-left: auto;
+    // margin-left: auto;
     overflow: hidden;
+    margin: auto;
     .logonew{
         width: 134px;
         height: 50px;
@@ -51,4 +52,85 @@ header{
         margin-right: 35px;
         margin-top: 25px;
     }
+}
+
+
+
+
+
+
+// 尾部
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.foot{
+    height: 360px;
+    background-color:#505050 ;
+    font-size: 12px;
+
+    color: #b3b3b3;
+    a{
+    color: #b3b3b3;
+    }
+    .foot-1{
+        overflow: hidden;
+        padding-left: 190px;
+        padding-top: 40px;
+        width: 1423px;
+        box-sizing: border-box;
+        margin: auto;
+    dl{
+        float: left;
+        margin:0 20px ;
+        &:nth-child(2){
+            width: 130px;
+            dd{
+                margin:20px 0 10px 0;        
+                width: 130px;
+            }
+        }
+        &:nth-child(4){
+            width: 130px;
+            dd{
+                width: 60px;
+                margin-right: 5px;
+                float: left;
+            }
+        }
+        dt{ 
+            color: #fff; 
+            a{
+            color: #fff; 
+
+            }
+            font-size: 14px;
+            height: 50PX;
+            .code{
+                width: 160px;
+                height: 160px;
+                background: url(../img/myCode.jpg) 0 0 no-repeat;
+                background-size: 360px 160px;
+            }
+            .log{
+                height: 50px;
+                background: url(../img/logoImg.jpg) 0 0 no-repeat;
+
+            }
+        }
+        dd{
+            margin-bottom: 5px;
+        }
+        
+    }
+    }
+    .foot-foot{
+        margin: auto;
+        width: 130px;
+        margin-top: 70px;
+    }
+    
 }
