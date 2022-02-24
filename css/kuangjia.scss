@@ -1,0 +1,54 @@
+$public1:20px;
+$gory:#d0d0d0;
+$red:#ff3a61;
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none
+}
+header{
+    width: 1423px;
+    height: 75px;
+    border-color: #ffff;
+    margin-left: auto;
+    overflow: hidden;
+    .logonew{
+        width: 134px;
+        height: 50px;
+        margin-left: 210px;
+        margin-top: 10px;
+        float: left;
+    }
+    .biaoti {
+        width: 400px;
+        height: 60px;
+        float: left;
+        margin-top: 15px;
+        li{
+            float: left;
+            font-size:$public1;
+            line-height: 60px;
+            float: left;
+            margin-left: 50px;
+        }
+    }
+    .register{
+        width: 50px;
+        height: 30px;
+        border:$red 1px solid;
+        border: radius 5px;;
+        float: right;
+        text-align: center;
+        line-height: 30px;
+        color: $red;
+        margin-right: 210px;
+        margin-top: 20px;
+    }
+    .search{
+        width: 25px;
+        height: 25px;
+        float: right;
+        margin-right: 35px;
+        margin-top: 25px;
+    }
+}
