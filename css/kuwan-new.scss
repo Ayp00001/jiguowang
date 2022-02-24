@@ -1,0 +1,102 @@
+.content-head{
+    height: 120px;
+    line-height: 120px;
+    width: 1423px;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.con-head{
+    width: 1423px;
+    height: 48px;
+    div{
+        width: 495px;
+        margin: auto;
+        div{
+            width: 165px;
+            float: left;
+            text-align: center;
+            a{
+                color: #9c9f9e;
+            }
+        }
+        .bot-red{
+             height: 48px;
+             box-sizing: border-box;
+            a{
+                color: #f7583b;
+            }
+            border-bottom: 4px solid #f7583b;
+        }
+    }
+}
+.content{
+    width: 1423px;
+    background-color: #f7f7f7;
+    div{
+        width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 5px;
+
+        .con-1{
+            float: left;
+            width: 220px;
+            margin-right: 30px;
+            margin-top: 20px;
+            font-size: 14px;
+            background-color: #ffffff;
+            
+            .img{
+                img{
+                    height: 130px;
+                }
+            }
+            p{
+                margin: 10px 0 30px 10px;
+            }
+            .con-2{
+                overflow: hidden;
+                width: 220px;
+
+                .jg{
+                    float: left;
+                    color: red;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                div{
+                    width: 60px;
+                    overflow: hidden;
+                    float: right;
+                    div{
+                        float: left;                      
+                        width: 20px;
+                        img{
+                            margin-top: 2px;
+                            margin-left: 5px;
+                        }
+                    }
+                    span{
+                        float: left;   
+                        font-size: 12px;                   
+                    }
+                }
+            }
+           
+        }
+
+    }
+    .con-fot{
+        height: 125px;
+        div{
+            height: 125px;
+            line-height: 125px;
+            text-align: center;
+            width: 120px;
+            color: red;
+        }
+    }
+}
+

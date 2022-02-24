@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/kuangjia.css">
+    <link rel="stylesheet" href="../css/kuwan-hot.css">
+
+    <script src="../js/template-web.js"></script>
+    <script src="../js/kuwan-hot.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <img src="../img/logonew.png" class="logonew" alt="">
+        <ul class="biaoti">
+            <li>首页</li>
+            <li>导购</li>
+            <li>试用</li>
+            <li>报告</li>
+        </ul>
+        <div class="register">注册</div>
+        <img src="../img/search.png" alt="" class="search">
+    </header>
+    <hr>
+
+    <div class="content-head">发现酷玩</div>
+    <div class="con-head">
+        <div>
+            <div ><a href="./kuwan-new.html">最新</a></div>
+            <div class="bot-red"><a href="">最热</a></div>
+            <div><a href="">品类</a></div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="list">
+
+        </div>
+        <div id="list1"  hidden>
+
+        </div>
+        
+        <div class="con-fot">
+            <div>
+                <span class="load" onclick="asd()">&or;点击加载更多</span>
+            </div>
+        </div>
+
+    </div>
+    
+    <script type="text/html" id="mb">
+        {{each value[0]}}
+            <div class="con-1">
+                <div class="img"><img src={{$value.img}} alt=""></div>
+                <p>{{$value.text}}</p>
+                <div class="con-2">
+                    <span class="jg">{{$value.price}}</span>
+                    <div >
+                        <div><img src="../img/xin.png" alt=""></div>
+                        <span>{{$value.like}}</span>
+                        <div><img src="../img/reply.png" alt=""></div>
+                        <span>{{$value.words}}</span>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+        {{each value}}
+            <div class="con-1">
+                <div class="img"><img src={{$value[2].img}} alt=""></div>
+                <p>{{$value[2].text}}</p>
+                <div class="con-2">
+                    <span class="jg">{{$value[2].price}}</span>
+                    <div >
+                        <div><img src="../img/xin.png" alt=""></div>
+                        <span>{{$value[2].like}}</span>
+                        <div><img src="../img/reply.png" alt=""></div>
+                        <span>{{$value[2].words}}</span>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+        
+        
+        
+    </script>
+
+
+
+
+
+
+
+    <!-- 尾部 -->
+    <div class="foot">
+        <div class="foot-1">
+            <dl>
+                <dt>
+                    <div class="code"></div>
+                </dt>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="log"></div>
+                </dt>
+                <dd>全球酷玩试用导购平台酷·新奇·好玩·品质</dd>
+                <dd>微信添加"JguoJguo"获取我们的服务。</dd>
+            </dl>
+            <dl>
+                <dt><a href="">免费试用</a></dt>
+                <dd><a href="">试用流程</a></dd>
+                <dd>如何提高成功率</dd>
+            </dl>
+            <dl>
+                <dt>友情链接</dt>
+                <dd><a href="">智东西</a></dd>
+                <dd><a href="">WEIBUSI</a></dd>
+                <dd><a href="">搜狐IT</a></dd>
+                <dd><a href="">腾讯科技</a></dd>
+                <dd><a href="">搜狐数码 </a></dd>
+                <dd><a href="">凤凰科技</a></dd>
+                <dd><a href="">凤凰数码</a></dd>
+                <dd><a href="">PConline</a></dd>
+                <dd><a href="">泡泡网</a></dd>
+                <dd><a href="">3W咖啡</a></dd>
+                <dd><a href="">ZUK社区</a></dd>
+                <dd><a href="">亿觅emie</a></dd>
+                <dd><a href="">极客公园</a></dd>
+                <dd><a href="">易迅易启玩</a></dd>
+                <dd><a href="">果库</a></dd>
+            </dl>
+            <dl>
+                <dt>购买攻略</dt>
+                <dd>美亚海淘教程</dd>
+                <dd>日亚海淘教程</dd>
+                <dd>海淘转运攻略</dd>
+                <dd>kickstarter 众筹购买攻略</dd>
+                <dd>indiegogo 众筹购买攻略</dd>
+            </dl>
+            <dl>
+                <dt>厂商合作</dt>
+                <dd>关于极果</dd>
+                <dd>联系我们</dd>
+                <dd>商务合作：BD@jiguo.com</dd>
+                <dd>CEO邮箱：CEO@jiguo.com</dd>
+            </dl>
+        </div>
+        <div class="foot-foot">&copy; 2016 极果版权所有</div>
+    </div>
+</body>
+
+</html>
