@@ -1,0 +1,202 @@
+$public1:20px;
+$gory:#d0d0d0;
+$red:#ff3a61;
+$bk:#f3f3f3;
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none
+}
+header{
+    width: 1423px;
+    height: 75px;
+    border-color: #ffff;
+    // margin-left: auto;
+    overflow: hidden;
+    margin: auto;
+    .logonew{
+        width: 134px;
+        height: 50px;
+        margin-left: 210px;
+        margin-top: 10px;
+        float: left;
+    }
+    .biaoti {
+        width: 400px;
+        height: 60px;
+        float: left;
+        margin-top: 15px;
+        li{
+            float: left;
+            font-size:$public1;
+            line-height: 60px;
+            float: left;
+            margin-left: 50px;
+        }
+    }
+    .register{
+        width: 50px;
+        height: 30px;
+        border:$red 1px solid;
+        border: radius 5px;;
+        float: right;
+        text-align: center;
+        line-height: 30px;
+        color: $red;
+        margin-right: 210px;
+        margin-top: 20px;
+    }
+    .search{
+        width: 25px;
+        height: 25px;
+        float: right;
+        margin-right: 35px;
+        margin-top: 25px;
+    }
+}
+// 内容区
+.main{
+    overflow: hidden;
+    width: 1000px;
+    margin: 50px auto;
+    aside{
+        background-color: $bk;
+        border-radius: 5px;
+        float: left;
+        width: 270px;
+        height: 320px;
+        .name{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-top: 35px;
+            margin-left: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            border-bottom:$gory 2px solid;
+        }
+        p{
+            font-size: 16px;
+            margin-left: 40px;
+            margin-top: 15px;
+            font-weight: bolder;
+        }
+        ul{
+            margin: 15px 0px 15px 40px;
+            li{
+                font-size: 16px;
+                margin-top: 10px;
+                margin-left: 15px;
+            }
+        }
+    }
+    section{
+        float: left;
+        background-color: $bk;
+        border-radius: 5px;
+        width: 700px;
+        margin-left: 30px;
+        .name{
+            font-size: $public1;
+            font-weight: bolder;
+            padding: 10px;
+            margin: 20px 20px 0px 20px;
+            border-bottom:2px solid $gory;
+        }
+        p{
+            font-size: 16px;
+            font-weight: bolder;
+            margin: 30px;
+        }
+        ul{
+            margin: 30px;
+            li{
+                margin-top: 15px;
+            }
+        }
+        .title{
+            font-size: 20px;
+            font-weight:bolder;
+            margin-left: 30px;
+        }
+    }
+}
+
+
+
+
+
+// 尾部
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.foot{
+    height: 360px;
+    background-color:#505050 ;
+    font-size: 12px;
+
+    color: #b3b3b3;
+    a{
+    color: #b3b3b3;
+    }
+    .foot-1{
+        overflow: hidden;
+        padding-left: 190px;
+        padding-top: 40px;
+        width: 1423px;
+        box-sizing: border-box;
+        margin: auto;
+    dl{
+        float: left;
+        margin:0 20px ;
+        &:nth-child(2){
+            width: 130px;
+            dd{
+                margin:20px 0 10px 0;        
+                width: 130px;
+            }
+        }
+        &:nth-child(4){
+            width: 130px;
+            dd{
+                width: 60px;
+                margin-right: 5px;
+                float: left;
+            }
+        }
+        dt{ 
+            color: #fff; 
+            a{
+            color: #fff; 
+
+            }
+            font-size: 14px;
+            height: 50PX;
+            .code{
+                width: 160px;
+                height: 160px;
+                background: url(../img/myCode.jpg) 0 0 no-repeat;
+                background-size: 360px 160px;
+            }
+            .log{
+                height: 50px;
+                background: url(../img/logoImg.jpg) 0 0 no-repeat;
+
+            }
+        }
+        dd{
+            margin-bottom: 5px;
+        }
+        
+    }
+    }
+    .foot-foot{
+        margin: auto;
+        width: 130px;
+        margin-top: 70px;
+    }
+    
+}
