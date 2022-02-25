@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/kuangjia.css">
+    <link rel="stylesheet" href="../css/try-for.css">
+
+    <script src="../js/template-web.js"></script>
+    <script src="../js/try-for.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <img src="../img/logonew.png" class="logonew" alt="">
+        <ul class="biaoti">
+            <li>首页</li>
+            <li>导购</li>
+            <li>试用</li>
+            <li>报告</li>
+        </ul>
+        <div class="register">注册</div>
+        <img src="../img/search.png" alt="" class="search">
+    </header>
+    <hr>
+
+    <div class="content-head">免费试用</div>
+    <div class="con-head">
+        <div>
+            <div ><a href="./try-all.html">大众试用</a></div>
+            <div class="bot-red"><a href="">体验师专享</a></div>
+        </div>
+    </div>
+    <div class="cont-fot">
+        <div>
+            <span><a href="./try-all.html" class="try-all">全部</a></span>
+            <span><a href="./try-for.html" >申请中</a></span>
+            <span><a href="./try-out.html" >试用中</a></span>
+            <span><a href="./try-over.html">已结束</a></span>
+        </div>
+    </div>
+    <div class="content">
+        <div id="list">
+
+        </div>
+        <div class="con-fot">
+            <div>
+                <span class="load" style="color: #a5a5a5;">没有更多啦~</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/html" id="mb">
+        {{each value}}
+        {{if $value.info_ty=="体验师转享"}}
+            <div class="con-1">
+                <div class="img"><img src={{$value.img}} alt=""></div>
+                <p class="cont-0">{{$value.text}}</p>
+                <div class="cont-4">
+                    {{if $value.info_ty=="首发"}}
+                        <div style="background-color: #fc533f;color: #fff;width: 40px;">首发</div>
+                        {{else}}
+                        {{if $value.info_ty=="体验师转享"}}
+                        <div style="background-color: #fdf3c9;color: #b1b36d;width: 80px;">体验师转享</div>
+                        {{else}}
+                            
+                    {{/if}}
+                    {{/if}}
+                </div>
+                {{if $value.endTime}}
+                    <div class="cont-1" >
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.totalnum}}</div>
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #f75541;color: #f75541;">剩余时间2天</p>
+                    {{else}}
+                    {{if $value.uName}}
+                    <div class="cont-1">
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.totalnum}}</div>
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #72ca62;color: #72ca62;">查看试用名单</p>
+                    {{else}}
+                        <div class="cont-1">
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.totalnum}}</div>
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.num}}台</div>
+                        </div>
+                        <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                        <p class="cont-3" style="border-color: #cfcfcf;color: #cfcfcf;">报告数量：8</p>
+                    {{/if}}
+                {{/if}}
+            </div>
+        {{/if}}
+
+        {{/each}}
+        
+        {{each value}}
+        {{if $value.info_ty=="体验师转享"}}
+            <div class="con-1">
+                <div class="img"><img src={{$value.img}} alt=""></div>
+                <p class="cont-0">{{$value.text}}</p>
+                <div class="cont-4">
+                    {{if $value.info_ty=="首发"}}
+                        <div style="background-color: #fc533f;color: #fff;width: 40px;">首发</div>
+                        {{else}}
+                        {{if $value.info_ty=="体验师转享"}}
+                        <div style="background-color: #fdf3c9;color: #b1b36d;width: 80px;">体验师转享</div>
+                        {{else}}
+                            
+                    {{/if}}
+                    {{/if}}
+                </div>
+                {{if $value.endTime}}
+                    <div class="cont-1" >
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.totalnum}}</div>
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #f75541;color: #f75541;">剩余时间2天</p>
+                    {{else}}
+                    {{if $value.uName}}
+                    <div class="cont-1">
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.totalnum}}</div>
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #72ca62;color: #72ca62;">查看试用名单</p>
+                    {{else}}
+                        <div class="cont-1">
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.totalnum}}</div>
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.num}}台</div>
+                        </div>
+                        <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                        <p class="cont-3" style="border-color: #cfcfcf;color: #cfcfcf;">报告数量：8</p>
+                    {{/if}}
+                {{/if}}
+            </div>
+        {{/if}}
+
+        {{/each}}
+        {{each value}}
+        {{if $value.info_ty=="体验师转享"}}
+            <div class="con-1">
+                <div class="img"><img src={{$value.img}} alt=""></div>
+                <p class="cont-0">{{$value.text}}</p>
+                <div class="cont-4">
+                    {{if $value.info_ty=="首发"}}
+                        <div style="background-color: #fc533f;color: #fff;width: 40px;">首发</div>
+                        {{else}}
+                        {{if $value.info_ty=="体验师转享"}}
+                        <div style="background-color: #fdf3c9;color: #b1b36d;width: 80px;">体验师转享</div>
+                        {{else}}
+                            
+                    {{/if}}
+                    {{/if}}
+                </div>
+                {{if $value.endTime}}
+                    <div class="cont-1" >
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.totalnum}}</div>
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #f75541;color: #f75541;">剩余时间2天</p>
+                    {{else}}
+                    {{if $value.uName}}
+                    <div class="cont-1">
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.totalnum}}</div>
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #72ca62;color: #72ca62;">查看试用名单</p>
+                    {{else}}
+                        <div class="cont-1">
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.totalnum}}</div>
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.num}}台</div>
+                        </div>
+                        <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                        <p class="cont-3" style="border-color: #cfcfcf;color: #cfcfcf;">报告数量：8</p>
+                    {{/if}}
+                {{/if}}
+            </div>
+        {{/if}}
+
+        {{/each}}
+        
+        
+        
+    </script>
+
+
+
+
+
+
+
+    <!-- 尾部 -->
+    <div class="foot">
+        <div class="foot-1">
+            <dl>
+                <dt>
+                    <div class="code"></div>
+                </dt>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="log"></div>
+                </dt>
+                <dd>全球酷玩试用导购平台酷·新奇·好玩·品质</dd>
+                <dd>微信添加"JguoJguo"获取我们的服务。</dd>
+            </dl>
+            <dl>
+                <dt><a href="">免费试用</a></dt>
+                <dd><a href="">试用流程</a></dd>
+                <dd>如何提高成功率</dd>
+            </dl>
+            <dl>
+                <dt>友情链接</dt>
+                <dd><a href="">智东西</a></dd>
+                <dd><a href="">WEIBUSI</a></dd>
+                <dd><a href="">搜狐IT</a></dd>
+                <dd><a href="">腾讯科技</a></dd>
+                <dd><a href="">搜狐数码 </a></dd>
+                <dd><a href="">凤凰科技</a></dd>
+                <dd><a href="">凤凰数码</a></dd>
+                <dd><a href="">PConline</a></dd>
+                <dd><a href="">泡泡网</a></dd>
+                <dd><a href="">3W咖啡</a></dd>
+                <dd><a href="">ZUK社区</a></dd>
+                <dd><a href="">亿觅emie</a></dd>
+                <dd><a href="">极客公园</a></dd>
+                <dd><a href="">易迅易启玩</a></dd>
+                <dd><a href="">果库</a></dd>
+            </dl>
+            <dl>
+                <dt>购买攻略</dt>
+                <dd>美亚海淘教程</dd>
+                <dd>日亚海淘教程</dd>
+                <dd>海淘转运攻略</dd>
+                <dd>kickstarter 众筹购买攻略</dd>
+                <dd>indiegogo 众筹购买攻略</dd>
+            </dl>
+            <dl>
+                <dt>厂商合作</dt>
+                <dd>关于极果</dd>
+                <dd>联系我们</dd>
+                <dd>商务合作：BD@jiguo.com</dd>
+                <dd>CEO邮箱：CEO@jiguo.com</dd>
+            </dl>
+        </div>
+        <div class="foot-foot">&copy; 2016 极果版权所有</div>
+    </div>
+</body>
+
+</html>

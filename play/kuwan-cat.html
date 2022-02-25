@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/kuangjia.css">
-    <link rel="stylesheet" href="../css/kuwan-hot.css">
+    <link rel="stylesheet" href="../css/kuwan-cat.css">
 
     <script src="../js/template-web.js"></script>
-    <script src="../js/kuwan-hot.js"></script>
+    <script src="../js/kuwan-cat.js"></script>
 
 </head>
 
@@ -28,67 +28,77 @@
         <img src="../img/search.png" alt="" class="search">
     </header>
     <hr>
-
-    <div class="content-head">发现酷玩</div>
-    <div class="con-head">
-        <div>
-            <div ><a href="./kuwan-new.html">最新</a></div>
-            <div class="bot-red"><a href="">最热</a></div>
-            <div><a href="./kuwan-cat.html">品类</a></div>
-        </div>
-    </div>
-    <div class="content">
-        <div id="list">
-
-        </div>
-        <div id="list1"  hidden>
-
-        </div>
-        
-        <div class="con-fot">
+    <div class="marg">
+        <div class="content-head">发现酷玩</div>
+        <div class="con-head">
             <div>
-                <span class="load" onclick="asd()">&or;点击加载更多</span>
+                <div><a href="./kuwan-new.html">最新</a></div>
+                <div><a href="./kuwan-hot.html">最热</a></div>
+                <div class="bot-red"><a href="./kuwan-cat.html">品类</a></div>
             </div>
         </div>
 
+        <div class="cont-a">
+            <div class="cont-a1">
+                <div class="con-a2">
+                    <div class="cont-ha">生活</div>
+                </div>
+                <div id="list" class="cont-aa"></div>
+                <div class="con-a2">
+                    <div class="cont-ha">个人护理</div>
+                </div>
+                <div id="list1" class="cont-aa"></div>
+                <div class="con-a2">
+                    <div class="cont-ha">运动户外</div>
+                </div>
+                <div id="list2" class="cont-aa"></div>
+
+                <div class="con-a2">
+                    <div class="cont-ha">智能穿戴</div>
+                </div>
+                <div id="list3" class="cont-aa"></div>
+
+                <div class="con-a2">
+                    <div class="cont-ha">健康</div>
+                </div>
+                <div id="list4" class="cont-aa"></div>
+
+                <div class="con-a2">
+                    <div class="cont-ha">手机</div>
+                </div>
+                <div id="list5" class="cont-aa"></div>
+            </div>
+        </div>
     </div>
-    
+
+
+
+
+
     <script type="text/html" id="mb">
-        {{each value[0]}}
-            <div class="con-1">
-                <div class="img"><img src={{$value.img}} alt=""></div>
-                <p>{{$value.text}}</p>
-                <div class="con-2">
-                    <span class="jg">{{$value.price}}</span>
-                    <div >
-                        <div><img src="../img/xin.png" alt=""></div>
-                        <span>{{$value.like}}</span>
-                        <div><img src="../img/reply.png" alt=""></div>
-                        <span>{{$value.words}}</span>
-                    </div>
+        <div class="c-haa">
+            {{each value}}
+            {{if $value.icon}}
+                <div class="live">
+                    <div><img src={{$value.icon}} alt=""></div>
+                    <p>{{$value.productName}}({{$value.nums}})</p>
                 </div>
-            </div>
-        {{/each}}
-        {{each value}}
-            <div class="con-1">
-                <div class="img"><img src={{$value[2].img}} alt=""></div>
-                <p>{{$value[2].text}}</p>
-                <div class="con-2">
-                    <span class="jg">{{$value[2].price}}</span>
-                    <div >
-                        <div><img src="../img/xin.png" alt=""></div>
-                        <span>{{$value[2].like}}</span>
-                        <div><img src="../img/reply.png" alt=""></div>
-                        <span>{{$value[2].words}}</span>
-                    </div>
+            {{/if}}
+            {{/each}}
+
+        </div>
+        <div class="c-haa c-hab" >
+            {{each value}}
+            {{if $value.icon}}
+            {{else}}
+                <div class="live">
+                    <p>{{$value.productName}}({{$value.nums}})</p>
                 </div>
-            </div>
-        {{/each}}
-        
-        
+            {{/if}}
+            {{/each}}
+        </div>
         
     </script>
-
 
 
 

@@ -11,7 +11,7 @@
   height: 48px;
 }
 .con-head div {
-  width: 495px;
+  width: 330px;
   margin: auto;
 }
 .con-head div div {
@@ -67,7 +67,7 @@
   margin-bottom: 10px;
 }
 .content div .con-1 .con-2 div {
-  width: 60px;
+  width: 85px;
   overflow: hidden;
   float: right;
 }
@@ -95,6 +95,6 @@
 }
 
 #list {
-  height: 990px;
+  height: 1022px;
   overflow: hidden;
 }
