@@ -66,6 +66,7 @@ header{
         position: absolute;
         left: 1000px;
         top: 45px;
+        
         .name{
             font-size:30px; 
             color:#ffff;
@@ -100,33 +101,44 @@ header{
         }
     }
 }
+.show-1{
+    width: 1423px;
+    margin: auto;
+}
 
 //轮播图
 .main{
     width: 1000px;
     margin: 0 auto;
     height: 350px;
+    position: relative;
 }
 .mian p:nth-of-type(1){
     font-weight: 700;
     
     /* box-sizing: border-box; */
-    margin: 20px 0 20px 5px;
+    // margin: 20px 0 20px 5px;
+}
+.shiy{
+    height: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .swiper-container{
-    width: 1100px;
+    // width: 1100px;
     height: 285px;
     overflow: hidden;
     margin: 0 auto;
-    position: absolute;
-    left:290px;
+    // position: absolute;
+    // left:-10px;
+    
 }
 .swiper-wrapper{
     width:100%;
     height:100%;
     position: absolute;
-    
 }
 
 .swiper-slide{
@@ -142,7 +154,8 @@ header{
     height: 285px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 0px 19px;
+    // margin: 0px 19px;
+    margin-right: 40px;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
@@ -159,12 +172,13 @@ header{
 .lun span{
     width: 33px;
     height: 20px;
-    margin:0 auto;
+    // margin:0 auto;
+    font-size: 14px;
     display: inline-block;
-    position: absolute;
-    top: 220px;
-    left: 70px;
-  margin: 0 -7px;
+    // position: absolute;
+    // top: 220px;
+    // left: 70px;
+    margin: 0 10px;
     
 
 }
@@ -173,7 +187,7 @@ header{
     border: 1px solid chocolate;
     border-radius: 5px;
     text-align: center;
-    margin-left:37px;
+    margin-left:55px;
 }
 .lun span:nth-of-type(2){
     color: chocolate;
@@ -199,18 +213,160 @@ header{
 }
 .swiper-button-prev{
     color: #ccc;
-    margin-left: -10px;
+    margin-left: -50px;
     box-sizing: border-box;
 }
 
 .swiper-button-next{
     color: #ccc;
-    margin-right: 48px;
+    margin-right: -55px;
     box-sizing: border-box;
 }
 
+// 报告
+.report{
+    width: 1423px;
+    background-color: #f7f7f7;
+    margin: auto;
 
+    .repor{
+        width: 1000px;
+        margin: auto;
 
+        .rep-aj{
+            line-height: 60px;
+            height: 60px;
+            
+            span{
+                &:nth-child(1){
+                    float: left;
+                    font-size: 18px;
+                    font-weight: 700;
+
+                }
+                &:nth-child(2),&:nth-child(3){
+                    float: right;
+                    font-size: 14px;
+                    color: #fd5543;
+                    
+                }
+            }
+        }
+        #list_1{
+            overflow: hidden;
+            // margin-bottom: 20px;
+            padding-bottom: 40px;
+           
+        }
+    }
+}
+.con-1{
+    float: left;
+    width: 220px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    // height: 230px;
+    border-radius:  5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    &:nth-child(4n){
+        margin-right: 0;
+    }
+    .img{
+        img{
+            height: 130px;
+        }
+    }
+    p{
+        margin: 10px 0 20px 10px;
+        height: 36px;
+    }
+    .con-2{
+        overflow: hidden;
+        width: 220px;
+
+        .jg{
+            float: left;
+            color: rgb(148, 148, 148);
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .jg1{
+            float: left;
+            color: rgb(255, 4, 4);
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        div{
+            width: 60px;
+            overflow: hidden;
+            float: right;
+            div{
+                float: left;                      
+                width: 20px;
+                img{
+                    margin-top: 2px;
+                    margin-left: 5px;
+                }
+            }
+            span{
+                float: left;   
+                font-size: 12px; 
+            color: rgb(148, 148, 148);
+
+            }
+        }
+    }
+   
+}
+
+// daogou
+.shop{
+    width: 1423px;
+    margin: auto;
+    .shop-1{
+        width: 1000px;
+        margin: auto;
+        .shop-2{
+            line-height: 60px;
+            height: 60px;
+            span{
+                &:nth-child(1){
+                    float: left;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+                &:nth-child(2),&:nth-child(3){
+                    float: right;
+                    font-size: 14px;
+                    color: #fd5543;            
+                }
+            }
+        }
+    }
+    #list_hop{
+        overflow: hidden;
+        height: 250px;
+        margin-bottom: 40px;
+    }
+}
+
+// 酷玩
+#list_kuwan{
+    overflow: hidden;
+}
+.con-fot{
+    height: 125px;
+    div{
+        height: 125px;
+        line-height: 125px;
+        text-align: center;
+        width: 120px;
+        color: red;
+        margin: auto;
+    }
+}
 
 
 
