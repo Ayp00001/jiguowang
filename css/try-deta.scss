@@ -31,6 +31,11 @@
     .con-a{
         width: 1000px;
         margin: auto;
+        .cont-b{
+            padding: 5px;
+            border-left: 5px solid red;
+            margin-bottom: 20px;
+        }
         .con-left{
             width: 700px;
             float: left;
@@ -76,9 +81,19 @@
 
 
         }
-        .con-right{
+        .aside{
             width: 270px;
             float: right;
+            margin-top: 30px;
+            p{
+                font-size: 14px;
+                font-weight:bolder;
+                margin: 10px 0;
+            }
+            li{
+                font-size: 12px;
+                color: gray;
+            }
         }
     }
 }
@@ -170,4 +185,30 @@ position: relative;
 #list_a{
     overflow: hidden;
     height: 350px;
+}
+
+.zxc{
+    .zx1{
+        font-size: 26px;
+        color: red;
+    }
+    .zx2{
+        background-color: red;
+        height: 45px;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 10px;
+        color: #fff;
+        margin: 10px 0;
+    }
+    .zx3{
+        text-align: center;
+        color: gray;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+
+.cccc{
+    margin-top: 50px;
 }
