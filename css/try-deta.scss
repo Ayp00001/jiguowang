@@ -42,12 +42,38 @@
             }
             p{
                 margin: 25px 0;
+                width: 650px;
             }
             .h-red{
                 margin: 25px 0;
                 color: red;
-                
+                font-weight: bolder;
             }
+            .h-lan{
+                color: #046ae3;
+                margin: 25px 0;
+
+            }
+            .h-lan1{
+                color: #0888aa;
+                margin: 25px 0;
+
+            }
+            .h-red1{
+                color: red;
+                margin-top: 30px;
+                font-weight: bolder;
+
+            }
+            .aaaa{
+                color: gray;
+                span{
+                    color: #000;
+                    font-weight: bolder;
+                }
+            }
+        
+
 
         }
         .con-right{
@@ -55,4 +81,93 @@
             float: right;
         }
     }
+}
+.shop-a{
+    overflow: hidden;
+    width: 1000px;
+    margin: auto  ;
+    margin-top: 30px;
+    .shop1-a{
+        overflow: hidden;
+        span{
+            &:nth-child(1){
+                font-size: 16px;
+                font-weight: bolder;
+                float: left;
+            }
+            &:nth-child(n+2){
+                float: right;
+            }
+        }
+    }
+    
+}
+ .con-1{
+float: left;
+width: 220px;
+margin-right: 40px;
+margin-top: 33px;
+font-size: 14px;
+background-color: #ffffff;
+position: relative;
+.img{
+    img{
+        height: 130px;
+    }
+}
+.cont-0{
+    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+    height: 36px;
+    text-align: center;
+    font-weight: bolder;
+}
+.cont-1{
+    overflow: hidden;
+    width: 110px;
+    height: 25px;
+    margin: auto;
+    div{
+        line-height: 23px;
+        text-align: center;
+        float: left;
+        width: 46px;
+        height: 23px;
+        margin-right: 10px;
+        border: 1px solid ;
+        font-size: 8px;
+        &:nth-child(2){
+            margin-right: 0;
+        }
+    }
+}
+.contt-2{
+    text-align: center;
+    margin: 11px 0 8px;
+    span{
+        color: #ff4644;
+    }
+}
+.cont-3{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.cont-4{
+    width: 220px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    div{
+        float: right;
+        text-align: center;
+        line-height: 22px;
+    }
+}
+
+
+}
+#list_a{
+    overflow: hidden;
+    height: 350px;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../js/swiper-bundle.min.css">
     <script src="../js/template-web.js"></script>
     <link rel="stylesheet" href="../css/try-deta.css">
+    
 </head>
 
 <body>
@@ -93,9 +94,21 @@
                 <p>点击申请按钮报名，报名成功后记得邀请好友一起来参与哦~邀请好友数前十名将根据申请理由和影响力抽取一位直接获得试用机会。请认真填写申请理由，展现有创意的试用计划。进入手机端完善个人主页信息，可以大大提高申请通过几率哦~</p>
                 <div class="h-lan1">试用报告要求100% 原创，抄袭会被封杀哦！</div>
                 <div class="h-red1">活动流程</div>
-                
+                <div class="aaaa">1.<span>名单公布</span>：试用名单将在活动页公布</div>
+                <div class="aaaa">2.<span>试用通知</span>：名单公布后客服将以短信的方式通知申请成功者，2天不回复算弃权</div>
+                <div class="aaaa">3.<span>押金收取</span>：客服将统一通知大家收取产品押金</div>
+                <div class="aaaa">4.<span>产品寄送</span>：收到押金后第一时间将产品快递给大家</div>
+                <div class="aaaa">5.<span>网络晒单</span>：收货后请在微博或朋友圈等社交网络晒单</div>
+                <div class="aaaa">6.<span>试用报告</span>：收到货的10天内完成报告并上传</div>
+                <div class="aaaa">7.<span>产品回收</span>：选取6篇优秀报告，赠送产品</div>
+                <div class="aaaa">8.<span>押金退回</span>：活动结束返还，人为损坏须赔偿</div>
+                <div class="h-red1">活动时间</div>
+                <div class="aaaa">1.<span>申请报名</span>：2016/02/02－2016/02/17（截至24点）</div>
+                <div class="aaaa">2.<span>公布名单</span>：2016/02/20</div>
+                <div class="aaaa">3.<span>发货日期</span>：2016/02/22（以实际为准）</div>
+                <div class="aaaa">4.<span>试用期限</span>：收到产品后10天内</div>
 
-
+             
 
 
 
@@ -110,6 +123,66 @@
             </div>
         </div>
     </div>
+    <div class="shop-a">
+        <p class="shop1-a">
+            <span>热门试用</span>
+            <span><img src="../img/readMore.png" alt=""></span>
+            <span>查看更多</span>
+        </p>
+        
+        <div id="list_a"></div>
+
+    </div>
+
+    
+<script type="text/html" id="mb">
+{{each value}}
+<div class="con-1">
+    <div class="img"><img src={{$value.img}} alt=""></div>
+    <p class="cont-0">{{$value.text}}</p>
+    <div class="cont-4">
+        {{if $value.info_ty=="首发"}}
+            <div style="background-color: #fc533f;color: #fff;width: 40px;">首发</div>
+            {{else}}
+            {{if $value.info_ty=="体验师转享"}}
+            <div style="background-color: #fdf3c9;color: #b1b36d;width: 80px;">体验师转享</div>
+            {{else}}
+                
+        {{/if}}
+        {{/if}}
+    </div>
+    {{if $value.endTime}}
+        <div class="cont-1" >
+            <div style="border-color: #f75541;color: #f75541;">{{$value.totalnum}}</div>
+            <div style="border-color: #f75541;color: #f75541;">{{$value.num}}台</div>
+        </div>
+        <p class="contt-2"><span>{{$value.apply}}</span>申请</p>
+        <p class="cont-3" style="border-color: #f75541;color: #f75541;">剩余时间2天</p>
+        {{else}}
+        {{if $value.uName}}
+        <div class="cont-1">
+            <div style="border-color: #72ca62;color: #72ca62;">{{$value.totalnum}}</div>
+            <div style="border-color: #72ca62;color: #72ca62;">{{$value.num}}台</div>
+        </div>
+        <p class="contt-2"><span>{{$value.apply}}</span>申请</p>
+        <p class="cont-3" style="border-color: #72ca62;color: #72ca62;">查看试用名单</p>
+        {{else}}
+            <div class="cont-1">
+                <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.totalnum}}</div>
+                <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.num}}台</div>
+            </div>
+            <p class="contt-2"><span>{{$value.apply}}</span>申请</p>
+            <p class="cont-3" style="border-color: #cfcfcf;color: #cfcfcf;">报告数量：8</p>
+        {{/if}}
+    {{/if}}
+</div>
+
+{{/each}}
+
+
+
+
+</script>
     
 
     <div class="foot">
@@ -168,5 +241,5 @@
         <div class="foot-foot">&copy; 2016 极果版权所有</div>
     </div>
 </body>
-
+<script src="../js/try-date.js"></script>
 </html>
