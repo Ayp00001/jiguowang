@@ -22,7 +22,7 @@ header{
         float: left;
     }
     .biaoti {
-        width: 400px;
+        width: 450px;
         height: 60px;
         float: left;
         margin-top: 15px;
@@ -150,7 +150,7 @@ header{
 }
 
 .lun{
-    width: 220px;
+    width: 230px;
     height: 285px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -159,6 +159,9 @@ header{
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
+    &:nth-child(4){
+        margin-right: 0;
+    }
     
 }
 .lun img{

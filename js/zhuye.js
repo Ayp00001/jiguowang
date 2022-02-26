@@ -61,7 +61,12 @@ as.onreadystatechange = function () {
                 value: kw,
             })
             list_kuwan.innerHTML = html_2
+
+            
         }
     }
 
 }
+
+
+

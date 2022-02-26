@@ -19,7 +19,7 @@ header .logonew {
   float: left;
 }
 header .biaoti {
-  width: 400px;
+  width: 450px;
   height: 60px;
   float: left;
   margin-top: 15px;
@@ -30,6 +30,9 @@ header .biaoti li {
   line-height: 60px;
   float: left;
   margin-left: 50px;
+}
+header .biaoti li a {
+  color: black;
 }
 header .register {
   width: 50px;
@@ -42,6 +45,9 @@ header .register {
   color: #ff3a61;
   margin-right: 210px;
   margin-top: 20px;
+}
+header .register a {
+  color: red;
 }
 header .search {
   width: 25px;

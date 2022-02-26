@@ -21,7 +21,7 @@ header{
         float: left;
     }
     .biaoti {
-        width: 400px;
+        width: 450px;
         height: 60px;
         float: left;
         margin-top: 15px;
@@ -31,6 +31,9 @@ header{
             line-height: 60px;
             float: left;
             margin-left: 50px;
+            a{
+                color: black;
+            }
         }
     }
     .register{
@@ -44,6 +47,9 @@ header{
         color: $red;
         margin-right: 210px;
         margin-top: 20px;
+        a{
+            color: red;
+        }
     }
     .search{
         width: 25px;
@@ -82,6 +88,9 @@ header{
         font-size: 20px;
         font-weight: bolder;
         float: left;
+    }
+    a{
+        color: black;
     }
 }
 section{

@@ -11,7 +11,6 @@ header {
   overflow: hidden;
   margin: auto;
 }
-
 header .logonew {
   width: 134px;
   height: 50px;
@@ -19,14 +18,12 @@ header .logonew {
   margin-top: 10px;
   float: left;
 }
-
 header .biaoti {
-  width: 400px;
+  width: 450px;
   height: 60px;
   float: left;
   margin-top: 15px;
 }
-
 header .biaoti li {
   float: left;
   font-size: 20px;
@@ -34,7 +31,6 @@ header .biaoti li {
   float: left;
   margin-left: 50px;
 }
-
 header .register {
   width: 50px;
   height: 30px;
@@ -47,7 +43,6 @@ header .register {
   margin-right: 210px;
   margin-top: 20px;
 }
-
 header .search {
   width: 25px;
   height: 25px;
@@ -63,7 +58,6 @@ header .search {
   background: url(../img/original.jpg) -50px 0px/100% 100%;
   overflow: hidden;
 }
-
 .show .data {
   width: 320px;
   height: 205px;
@@ -71,17 +65,14 @@ header .search {
   left: 1000px;
   top: 45px;
 }
-
 .show .data .name {
   font-size: 30px;
   color: #ffff;
 }
-
 .show .data ul {
   overflow: hidden;
   margin-top: 20px;
 }
-
 .show .data ul li {
   padding: 10px;
   float: left;
@@ -90,7 +81,6 @@ header .search {
   margin-left: 20px;
   font-size: 16px;
 }
-
 .show .data .remainingtime {
   margin-top: 20px;
   font-size: 16px;
@@ -98,7 +88,6 @@ header .search {
   margin-right: 40px;
   color: #ffff;
 }
-
 .show .data .apply {
   margin-top: 20px;
   width: 240px;
@@ -147,27 +136,24 @@ header .search {
 
 .swiper-slide {
   margin: 0px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   top: -90x;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   overflow: hidden;
 }
 
 .lun {
-  width: 220px;
+  width: 230px;
   height: 285px;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-right: 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   overflow: hidden;
   position: relative;
+}
+.lun:nth-child(4) {
+  margin-right: 0;
 }
 
 .lun img {
@@ -206,8 +192,7 @@ header .search {
 .p1 {
   margin-left: -30px;
   margin-top: -10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .p1 p:nth-of-type(1) {
@@ -226,15 +211,13 @@ header .search {
 .swiper-button-prev {
   color: #ccc;
   margin-left: -50px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .swiper-button-next {
   color: #ccc;
   margin-right: -55px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .report {
@@ -242,29 +225,24 @@ header .search {
   background-color: #f7f7f7;
   margin: auto;
 }
-
 .report .repor {
   width: 1000px;
   margin: auto;
 }
-
 .report .repor .rep-aj {
   line-height: 60px;
   height: 60px;
 }
-
 .report .repor .rep-aj span:nth-child(1) {
   float: left;
   font-size: 18px;
   font-weight: 700;
 }
-
 .report .repor .rep-aj span:nth-child(2), .report .repor .rep-aj span:nth-child(3) {
   float: right;
   font-size: 14px;
   color: #fd5543;
 }
-
 .report .repor #list_1 {
   overflow: hidden;
   padding-bottom: 40px;
@@ -280,55 +258,45 @@ header .search {
   overflow: hidden;
   background-color: #ffffff;
 }
-
 .con-1:nth-child(4n) {
   margin-right: 0;
 }
-
 .con-1 .img img {
   height: 130px;
 }
-
 .con-1 p {
   margin: 10px 0 20px 10px;
   height: 36px;
 }
-
 .con-1 .con-2 {
   overflow: hidden;
   width: 220px;
 }
-
 .con-1 .con-2 .jg {
   float: left;
   color: #949494;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-
 .con-1 .con-2 .jg1 {
   float: left;
   color: #ff0404;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-
 .con-1 .con-2 div {
   width: 60px;
   overflow: hidden;
   float: right;
 }
-
 .con-1 .con-2 div div {
   float: left;
   width: 20px;
 }
-
 .con-1 .con-2 div div img {
   margin-top: 2px;
   margin-left: 5px;
 }
-
 .con-1 .con-2 div span {
   float: left;
   font-size: 12px;
@@ -339,29 +307,24 @@ header .search {
   width: 1423px;
   margin: auto;
 }
-
 .shop .shop-1 {
   width: 1000px;
   margin: auto;
 }
-
 .shop .shop-1 .shop-2 {
   line-height: 60px;
   height: 60px;
 }
-
 .shop .shop-1 .shop-2 span:nth-child(1) {
   float: left;
   font-size: 18px;
   font-weight: 700;
 }
-
 .shop .shop-1 .shop-2 span:nth-child(2), .shop .shop-1 .shop-2 span:nth-child(3) {
   float: right;
   font-size: 14px;
   color: #fd5543;
 }
-
 .shop #list_hop {
   overflow: hidden;
   height: 250px;
@@ -375,7 +338,6 @@ header .search {
 .con-fot {
   height: 125px;
 }
-
 .con-fot div {
   height: 125px;
   line-height: 125px;
@@ -401,71 +363,57 @@ a {
   overflow: hidden;
   color: #b3b3b3;
 }
-
 .foot a {
   color: #b3b3b3;
 }
-
 .foot .foot-1 {
   overflow: hidden;
   padding-left: 190px;
   padding-top: 40px;
   width: 1423px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: auto;
 }
-
 .foot .foot-1 dl {
   float: left;
   margin: 0 20px;
 }
-
 .foot .foot-1 dl:nth-child(2) {
   width: 130px;
 }
-
 .foot .foot-1 dl:nth-child(2) dd {
   margin: 20px 0 10px 0;
   width: 130px;
 }
-
 .foot .foot-1 dl:nth-child(4) {
   width: 130px;
 }
-
 .foot .foot-1 dl:nth-child(4) dd {
   width: 60px;
   margin-right: 5px;
   float: left;
 }
-
 .foot .foot-1 dl dt {
   color: #fff;
   font-size: 14px;
   height: 50PX;
 }
-
 .foot .foot-1 dl dt a {
   color: #fff;
 }
-
 .foot .foot-1 dl dt .code {
   width: 160px;
   height: 160px;
   background: url(../img/myCode.jpg) 0 0 no-repeat;
   background-size: 360px 160px;
 }
-
 .foot .foot-1 dl dt .log {
   height: 50px;
   background: url(../img/logoImg.jpg) 0 0 no-repeat;
 }
-
 .foot .foot-1 dl dd {
   margin-bottom: 5px;
 }
-
 .foot .foot-foot {
   margin: auto;
   width: 130px;
