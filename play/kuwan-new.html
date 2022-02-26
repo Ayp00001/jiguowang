@@ -34,7 +34,7 @@
         <div>
             <div class="bot-red"><a href="">最新</a></div>
             <div><a href="./kuwan-hot.html">最热</a></div>
-            <div><a href="">品类</a></div>
+            <div><a href="./kuwan-cat.html">品类</a></div>
         </div>
     </div>
     <div class="content">
@@ -50,6 +50,7 @@
     </div>
     
     <script type="text/html" id="mb">
+        {{each value[0]}}
         {{each value[0]}}
             <div class="con-1">
                 <div class="img"><img src={{$value.img}} alt=""></div>
@@ -79,6 +80,38 @@
                     </div>
                 </div>
             </div>
+        {{/each}}
+
+        {{each value[3]}}
+            <div class="con-1">
+                <div class="img"><img src={{$value.img}} alt=""></div>
+                <p>{{$value.text}}</p>
+                <div class="con-2">
+                    <span class="jg">{{$value.price}}</span>
+                    <div >
+                        <div><img src="../img/xin.png" alt=""></div>
+                        <span>{{$value.like}}</span>
+                        <div><img src="../img/reply.png" alt=""></div>
+                        <span>{{$value.words}}</span>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+        {{each value[2]}}
+            <div class="con-1">
+                <div class="img"><img src={{$value.img}} alt=""></div>
+                <p>{{$value.text}}</p>
+                <div class="con-2">
+                    <span class="jg">{{$value.price}}</span>
+                    <div >
+                        <div><img src="../img/xin.png" alt=""></div>
+                        <span>{{$value.like}}</span>
+                        <div><img src="../img/reply.png" alt=""></div>
+                        <span>{{$value.words}}</span>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
         {{/each}}
         
         

@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/kuangjia.css">
-    <link rel="stylesheet" href="../css/kuwan-hot.css">
+    <link rel="stylesheet" href="../css/guid-new.css">
 
     <script src="../js/template-web.js"></script>
-    <script src="../js/kuwan-hot.js"></script>
+    <script src="../js/guid-new.js"></script>
 
 </head>
 
@@ -29,22 +29,17 @@
     </header>
     <hr>
 
-    <div class="content-head">发现酷玩</div>
+    <div class="content-head">导购清单</div>
     <div class="con-head">
         <div>
-            <div ><a href="./kuwan-new.html">最新</a></div>
-            <div class="bot-red"><a href="">最热</a></div>
-            <div><a href="./kuwan-cat.html">品类</a></div>
+            <div class="bot-red"><a href="">最新</a></div>
+            <div><a href="./guid-hot.html">最热</a></div>
         </div>
     </div>
     <div class="content">
         <div id="list">
 
         </div>
-        <div id="list1"  hidden>
-
-        </div>
-        
         <div class="con-fot">
             <div>
                 <span class="load" onclick="asd()">&or;点击加载更多</span>
@@ -54,7 +49,8 @@
     </div>
     
     <script type="text/html" id="mb">
-        {{each value[0]}}
+        {{each value}}
+        {{each value}}
             <div class="con-1">
                 <div class="img"><img src={{$value.img}} alt=""></div>
                 <p>{{$value.text}}</p>
@@ -67,23 +63,11 @@
                         <span>{{$value.words}}</span>
                     </div>
                 </div>
+                <div><img src="../img/listbg.jpg" alt=""></div>
             </div>
         {{/each}}
-        {{each value}}
-            <div class="con-1">
-                <div class="img"><img src={{$value[2].img}} alt=""></div>
-                <p>{{$value[2].text}}</p>
-                <div class="con-2">
-                    <span class="jg">{{$value[2].price}}</span>
-                    <div >
-                        <div><img src="../img/xin.png" alt=""></div>
-                        <span>{{$value[2].like}}</span>
-                        <div><img src="../img/reply.png" alt=""></div>
-                        <span>{{$value[2].words}}</span>
-                    </div>
-                </div>
-            </div>
         {{/each}}
+        
         
         
         

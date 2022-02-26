@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/kuangjia.css">
-    <link rel="stylesheet" href="../css/kuwan-hot.css">
+    <link rel="stylesheet" href="../css/try-all.css">
 
     <script src="../js/template-web.js"></script>
-    <script src="../js/kuwan-hot.js"></script>
+    <script src="../js/try-all.js"></script>
 
 </head>
 
@@ -29,22 +29,25 @@
     </header>
     <hr>
 
-    <div class="content-head">发现酷玩</div>
+    <div class="content-head">免费试用</div>
     <div class="con-head">
         <div>
-            <div ><a href="./kuwan-new.html">最新</a></div>
-            <div class="bot-red"><a href="">最热</a></div>
-            <div><a href="./kuwan-cat.html">品类</a></div>
+            <div class="bot-red"><a href="">大众试用</a></div>
+            <div><a href="./try-ex.html">体验师专享</a></div>
+        </div>
+    </div>
+    <div class="cont-fot">
+        <div>
+            <span><a href="" class="try-all">全部</a></span>
+            <span><a href="./try-for.html">申请中</a></span>
+            <span><a href="./try-out.html">试用中</a></span>
+            <span><a href="./try-over.html">已结束</a></span>
         </div>
     </div>
     <div class="content">
         <div id="list">
 
         </div>
-        <div id="list1"  hidden>
-
-        </div>
-        
         <div class="con-fot">
             <div>
                 <span class="load" onclick="asd()">&or;点击加载更多</span>
@@ -52,38 +55,50 @@
         </div>
 
     </div>
-    
+
     <script type="text/html" id="mb">
-        {{each value[0]}}
-            <div class="con-1">
-                <div class="img"><img src={{$value.img}} alt=""></div>
-                <p>{{$value.text}}</p>
-                <div class="con-2">
-                    <span class="jg">{{$value.price}}</span>
-                    <div >
-                        <div><img src="../img/xin.png" alt=""></div>
-                        <span>{{$value.like}}</span>
-                        <div><img src="../img/reply.png" alt=""></div>
-                        <span>{{$value.words}}</span>
-                    </div>
-                </div>
-            </div>
-        {{/each}}
         {{each value}}
             <div class="con-1">
-                <div class="img"><img src={{$value[2].img}} alt=""></div>
-                <p>{{$value[2].text}}</p>
-                <div class="con-2">
-                    <span class="jg">{{$value[2].price}}</span>
-                    <div >
-                        <div><img src="../img/xin.png" alt=""></div>
-                        <span>{{$value[2].like}}</span>
-                        <div><img src="../img/reply.png" alt=""></div>
-                        <span>{{$value[2].words}}</span>
-                    </div>
+                <div class="img"><img src={{$value.img}} alt=""></div>
+                <p class="cont-0">{{$value.text}}</p>
+                <div class="cont-4">
+                    {{if $value.info_ty=="首发"}}
+                        <div style="background-color: #fc533f;color: #fff;width: 40px;">首发</div>
+                        {{else}}
+                        {{if $value.info_ty=="体验师转享"}}
+                        <div style="background-color: #fdf3c9;color: #b1b36d;width: 80px;">体验师转享</div>
+                        {{else}}
+                            
+                    {{/if}}
+                    {{/if}}
                 </div>
+                {{if $value.endTime}}
+                    <div class="cont-1" >
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.totalnum}}</div>
+                        <div style="border-color: #f75541;color: #f75541;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #f75541;color: #f75541;">剩余时间2天</p>
+                    {{else}}
+                    {{if $value.uName}}
+                    <div class="cont-1">
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.totalnum}}</div>
+                        <div style="border-color: #72ca62;color: #72ca62;">{{$value.num}}台</div>
+                    </div>
+                    <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                    <p class="cont-3" style="border-color: #72ca62;color: #72ca62;">查看试用名单</p>
+                    {{else}}
+                        <div class="cont-1">
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.totalnum}}</div>
+                            <div style="border-color: #cfcfcf;color: #cfcfcf;">{{$value.num}}台</div>
+                        </div>
+                        <p class="cont-2"><span>{{$value.apply}}</span>申请</p>
+                        <p class="cont-3" style="border-color: #cfcfcf;color: #cfcfcf;">报告数量：8</p>
+                    {{/if}}
+                {{/if}}
             </div>
         {{/each}}
+        
         
         
         

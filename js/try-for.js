@@ -3,7 +3,7 @@ if (window.XMLHttpRequest) {
 } else {
     var as = new ActiveXObject('Microsoft.XMLHTTP')
 }
-as.open('get', 'http://192.168.31.110:3000/play/new', true)
+as.open('get', 'http://192.168.31.110:3000/useing/public', true)
 as.send()
 as.onreadystatechange = function () {
     if (as.readyState == 4) {
@@ -19,10 +19,11 @@ as.onreadystatechange = function () {
 
 }
 
-var a=990
+
+var a=1300
 var load_=document.getElementsByClassName('load')[0]
 function asd(){
-    a+=495
+    a+=375
     list.style.height=a+'px'
 }
 
