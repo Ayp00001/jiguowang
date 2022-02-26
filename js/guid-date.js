@@ -1,10 +1,17 @@
-
-
-var xin=document.getElementsByClassName('qwe')[0]
-
-xin.onclick=function(){
-    this.firstElementChild.setAttribute("src","../img/xinRedh.png");
-    this.nextElementSibling.firstElementChild.innerHTML=16
-}
-
+$(function () {
+    $(".xin1").on("click", function () {
+        $(".pos").css("display", "block")
+        return false
+    })
+    $("body").on("click", function () {
+        $(".pos").css("display", "none")
+        return false
+    })
+    var a=15
+    $('.qwe').on('click',function(){
+        a++
+        $('.asdf').html(a)
+        $('.zxcv').hide().siblings('img').show()
+    })
+})
 
