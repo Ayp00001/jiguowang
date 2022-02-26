@@ -1,0 +1,295 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header {
+  width: 1423px;
+  height: 75px;
+  border-color: #ffff;
+  overflow: hidden;
+  margin: auto;
+}
+
+header .logonew {
+  width: 134px;
+  height: 50px;
+  margin-left: 210px;
+  margin-top: 10px;
+  float: left;
+}
+
+header .biaoti {
+  width: 400px;
+  height: 60px;
+  float: left;
+  margin-top: 15px;
+}
+
+header .biaoti li {
+  float: left;
+  font-size: 20px;
+  line-height: 60px;
+  float: left;
+  margin-left: 50px;
+}
+
+header .register {
+  width: 50px;
+  height: 30px;
+  border: #ff3a61 1px solid;
+  border: radius 5px;
+  float: right;
+  text-align: center;
+  line-height: 30px;
+  color: #ff3a61;
+  margin-right: 210px;
+  margin-top: 20px;
+}
+
+header .search {
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin-right: 35px;
+  margin-top: 25px;
+}
+
+.main {
+  width: 1000px;
+  margin: 30px auto;
+  height: 785px;
+  background-color: #ffffff;
+  border: #d0d0d0 2px solid;
+  border-radius: 5px;
+}
+
+.main .title {
+  margin-top: 30px;
+  padding-left: 25px;
+  border-left: #ff3a61 5px solid;
+  font-size: 20px;
+}
+
+.main .data {
+  width: 400px;
+  margin: 70px auto;
+}
+
+.main .phone .phone_ {
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .picture {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.main .picture .picture_ {
+  width: 250px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+.main .picture .picture_1 {
+  width: 150px;
+  height: 50px;
+  background-color: #505050;
+  float: left;
+}
+
+.main .test {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.main .test input {
+  width: 250px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+.main .test .test_bt {
+  margin-left: 30px;
+  width: 120px;
+  height: 50px;
+  border-radius: 6px;
+  border: #d0d0d0 2px solid;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  color: #d0d0d0;
+  background-color: #fff;
+}
+
+.main .name {
+  margin-top: 30px;
+}
+
+.main .name .name_ {
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .pass {
+  margin-top: 30px;
+}
+
+.main .pass .pass_ {
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .pass1 {
+  margin-top: 30px;
+}
+
+.main .pass1 .pass1_ {
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .register {
+  margin-top: 30px;
+}
+
+.main .register button {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  background-color: #ff3a61;
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.foot {
+  height: 360px;
+  background-color: #505050;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.foot a {
+  color: #b3b3b3;
+}
+
+.foot .foot-1 {
+  overflow: hidden;
+  padding-left: 190px;
+  padding-top: 40px;
+  width: 1423px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+}
+
+.foot .foot-1 dl {
+  float: left;
+  margin: 0 20px;
+}
+
+.foot .foot-1 dl:nth-child(2) {
+  width: 130px;
+}
+
+.foot .foot-1 dl:nth-child(2) dd {
+  margin: 20px 0 10px 0;
+  width: 130px;
+}
+
+.foot .foot-1 dl:nth-child(4) {
+  width: 130px;
+}
+
+.foot .foot-1 dl:nth-child(4) dd {
+  width: 60px;
+  margin-right: 5px;
+  float: left;
+}
+
+.foot .foot-1 dl dt {
+  color: #fff;
+  font-size: 14px;
+  height: 50PX;
+}
+
+.foot .foot-1 dl dt a {
+  color: #fff;
+}
+
+.foot .foot-1 dl dt .code {
+  width: 160px;
+  height: 160px;
+  background: url(../img/myCode.jpg) 0 0 no-repeat;
+  background-size: 360px 160px;
+}
+
+.foot .foot-1 dl dt .log {
+  height: 50px;
+  background: url(../img/logoImg.jpg) 0 0 no-repeat;
+}
+
+.foot .foot-1 dl dd {
+  margin-bottom: 5px;
+}
+
+.foot .foot-foot {
+  margin: auto;
+  width: 130px;
+  margin-top: 70px;
+}
