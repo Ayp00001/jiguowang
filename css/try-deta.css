@@ -3,11 +3,9 @@
   width: 1423px;
   margin: auto;
   padding-top: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #f0f0f0;
 }
-
 .head-1 .hea-1 {
   width: 1000px;
   margin: auto;
@@ -19,11 +17,9 @@
   float: left;
   margin-right: 120px;
 }
-
 .hea-1 > div p {
   font-size: 12px;
 }
-
 .hea-1 > div div {
   width: 37px;
   margin: auto;
@@ -34,78 +30,64 @@
   margin: auto;
   overflow: hidden;
 }
-
 .conter-a .con-a {
   width: 1000px;
   margin: auto;
 }
-
 .conter-a .con-a .cont-b {
   padding: 5px;
   border-left: 5px solid red;
   margin-bottom: 20px;
 }
-
 .conter-a .con-a .con-left {
   width: 700px;
   float: left;
   padding-top: 40px;
 }
-
 .conter-a .con-a .con-left .cont-b {
   padding: 5px;
   border-left: 5px solid red;
   margin-bottom: 20px;
 }
-
 .conter-a .con-a .con-left p {
   margin: 25px 0;
   width: 650px;
 }
-
 .conter-a .con-a .con-left .h-red {
   margin: 25px 0;
   color: red;
   font-weight: bolder;
 }
-
 .conter-a .con-a .con-left .h-lan {
   color: #046ae3;
   margin: 25px 0;
 }
-
 .conter-a .con-a .con-left .h-lan1 {
   color: #0888aa;
   margin: 25px 0;
 }
-
 .conter-a .con-a .con-left .h-red1 {
   color: red;
   margin-top: 30px;
   font-weight: bolder;
 }
-
 .conter-a .con-a .con-left .aaaa {
   color: gray;
 }
-
 .conter-a .con-a .con-left .aaaa span {
   color: #000;
   font-weight: bolder;
 }
-
 .conter-a .con-a .aside {
   width: 270px;
   float: right;
   margin-top: 30px;
 }
-
 .conter-a .con-a .aside p {
   font-size: 14px;
   font-weight: bolder;
   margin: 10px 0;
 }
-
 .conter-a .con-a .aside li {
   font-size: 12px;
   color: gray;
@@ -117,17 +99,14 @@
   margin: auto;
   margin-top: 30px;
 }
-
 .shop-a .shop1-a {
   overflow: hidden;
 }
-
 .shop-a .shop1-a span:nth-child(1) {
   font-size: 16px;
   font-weight: bolder;
   float: left;
 }
-
 .shop-a .shop1-a span:nth-child(n+2) {
   float: right;
 }
@@ -141,11 +120,9 @@
   background-color: #ffffff;
   position: relative;
 }
-
 .con-1 .img img {
   height: 130px;
 }
-
 .con-1 .cont-0 {
   margin: 10px 0px 10px 0px;
   font-size: 14px;
@@ -153,14 +130,12 @@
   text-align: center;
   font-weight: bolder;
 }
-
 .con-1 .cont-1 {
   overflow: hidden;
   width: 110px;
   height: 25px;
   margin: auto;
 }
-
 .con-1 .cont-1 div {
   line-height: 23px;
   text-align: center;
@@ -171,25 +146,20 @@
   border: 1px solid;
   font-size: 8px;
 }
-
 .con-1 .cont-1 div:nth-child(2) {
   margin-right: 0;
 }
-
 .con-1 .contt-2 {
   text-align: center;
   margin: 11px 0 8px;
 }
-
 .con-1 .contt-2 span {
   color: #ff4644;
 }
-
 .con-1 .cont-3 {
   text-align: center;
   margin-bottom: 18px;
 }
-
 .con-1 .cont-4 {
   width: 220px;
   height: 22px;
@@ -197,7 +167,6 @@
   top: 0;
   overflow: hidden;
 }
-
 .con-1 .cont-4 div {
   float: right;
   text-align: center;
@@ -213,7 +182,6 @@
   font-size: 26px;
   color: red;
 }
-
 .zxc .zx2 {
   background-color: red;
   height: 45px;
@@ -223,7 +191,6 @@
   color: #fff;
   margin: 10px 0;
 }
-
 .zxc .zx3 {
   text-align: center;
   color: gray;

@@ -11,7 +11,6 @@ header {
   overflow: hidden;
   margin: auto;
 }
-
 header .logonew {
   width: 134px;
   height: 50px;
@@ -19,14 +18,12 @@ header .logonew {
   margin-top: 10px;
   float: left;
 }
-
 header .biaoti {
   width: 450px;
   height: 60px;
   float: left;
   margin-top: 15px;
 }
-
 header .biaoti li {
   float: left;
   font-size: 20px;
@@ -65,7 +62,6 @@ header .search {
   width: 1000px;
   margin: 50px auto;
 }
-
 .main aside {
   background-color: #f3f3f3;
   border-radius: 5px;
@@ -73,7 +69,6 @@ header .search {
   width: 270px;
   height: 320px;
 }
-
 .main aside .name {
   font-size: 20px;
   font-weight: bolder;
@@ -83,24 +78,20 @@ header .search {
   padding-left: 20px;
   border-bottom: #d0d0d0 2px solid;
 }
-
 .main aside p {
   font-size: 16px;
   margin-left: 40px;
   margin-top: 15px;
   font-weight: bolder;
 }
-
 .main aside ul {
   margin: 15px 0px 15px 40px;
 }
-
 .main aside ul li {
   font-size: 16px;
   margin-top: 10px;
   margin-left: 15px;
 }
-
 .main section {
   float: left;
   background-color: #f3f3f3;
@@ -108,7 +99,6 @@ header .search {
   width: 700px;
   margin-left: 30px;
 }
-
 .main section .name {
   font-size: 20px;
   font-weight: bolder;
@@ -116,21 +106,17 @@ header .search {
   margin: 20px 20px 0px 20px;
   border-bottom: 2px solid #d0d0d0;
 }
-
 .main section p {
   font-size: 16px;
   font-weight: bolder;
   margin: 30px;
 }
-
 .main section ul {
   margin: 30px;
 }
-
 .main section ul li {
   margin-top: 15px;
 }
-
 .main section .title {
   font-size: 20px;
   font-weight: bolder;
@@ -152,71 +138,57 @@ a {
   font-size: 12px;
   color: #b3b3b3;
 }
-
 .foot a {
   color: #b3b3b3;
 }
-
 .foot .foot-1 {
   overflow: hidden;
   padding-left: 190px;
   padding-top: 40px;
   width: 1423px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: auto;
 }
-
 .foot .foot-1 dl {
   float: left;
   margin: 0 20px;
 }
-
 .foot .foot-1 dl:nth-child(2) {
   width: 130px;
 }
-
 .foot .foot-1 dl:nth-child(2) dd {
   margin: 20px 0 10px 0;
   width: 130px;
 }
-
 .foot .foot-1 dl:nth-child(4) {
   width: 130px;
 }
-
 .foot .foot-1 dl:nth-child(4) dd {
   width: 60px;
   margin-right: 5px;
   float: left;
 }
-
 .foot .foot-1 dl dt {
   color: #fff;
   font-size: 14px;
   height: 50PX;
 }
-
 .foot .foot-1 dl dt a {
   color: #fff;
 }
-
 .foot .foot-1 dl dt .code {
   width: 160px;
   height: 160px;
   background: url(../img/myCode.jpg) 0 0 no-repeat;
   background-size: 360px 160px;
 }
-
 .foot .foot-1 dl dt .log {
   height: 50px;
   background: url(../img/logoImg.jpg) 0 0 no-repeat;
 }
-
 .foot .foot-1 dl dd {
   margin-bottom: 5px;
 }
-
 .foot .foot-foot {
   margin: auto;
   width: 130px;

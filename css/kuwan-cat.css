@@ -10,30 +10,24 @@
   width: 1423px;
   height: 48px;
 }
-
 .con-head div {
   width: 495px;
   margin: auto;
   overflow: hidden;
 }
-
 .con-head div div {
   width: 165px;
   float: left;
   text-align: center;
 }
-
 .con-head div div a {
   color: #9c9f9e;
 }
-
 .con-head div .bot-red {
   height: 48px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-bottom: 4px solid #f7583b;
 }
-
 .con-head div .bot-red a {
   color: #f7583b;
 }
@@ -49,49 +43,41 @@
   padding-top: 25px;
   overflow: hidden;
 }
-
 .cont-a .cont-a1 {
   padding-top: 15px;
   width: 1000px;
   margin: auto;
   margin-bottom: 50px;
 }
-
 .cont-a .cont-a1 .con-a2 {
   padding-top: 20px;
   background-color: #fff;
 }
-
 .cont-a .cont-a1 .con-a2 .cont-ha {
   padding-left: 20px;
   border-left: 5px solid #ff5c2d;
 }
-
 .cont-a .cont-a1 .cont-aa {
   background-color: #fff;
   padding-top: 15px;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
-
 .cont-a .cont-a1 .cont-aa .c-haa {
   width: 1000px;
   overflow: hidden;
   border-bottom: 1px dashed #9c9f9e;
 }
-
 .cont-a .cont-a1 .cont-aa .c-haa .live {
   width: 100px;
   float: left;
   margin: 10px 20px 10px 40px;
 }
-
 .cont-a .cont-a1 .cont-aa .c-haa .live p {
   font-size: 12px;
   text-align: center;
   color: #9c9f9e;
 }
-
 .cont-a .cont-a1 .cont-aa .c-hab {
   border-bottom: 0px dashed #9c9f9e;
 }

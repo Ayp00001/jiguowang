@@ -104,6 +104,10 @@ header .search {
   background-color: #505050;
   float: left;
 }
+.main .picture .picture_1 img {
+  width: 150px;
+  height: 50px;
+}
 .main .test {
   margin-top: 30px;
   overflow: hidden;
