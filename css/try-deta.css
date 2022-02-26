@@ -1,0 +1,57 @@
+.head-1 {
+  height: 100px;
+  width: 1423px;
+  margin: auto;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+.head-1 .hea-1 {
+  width: 1000px;
+  margin: auto;
+  border-left: 5px solid red;
+  overflow: hidden;
+}
+
+.hea-1 > div {
+  float: left;
+  margin-right: 120px;
+}
+.hea-1 > div p {
+  font-size: 12px;
+}
+.hea-1 > div div {
+  width: 37px;
+  margin: auto;
+}
+
+.conter-a {
+  width: 1423px;
+  margin: auto;
+  overflow: hidden;
+}
+.conter-a .con-a {
+  width: 1000px;
+  margin: auto;
+}
+.conter-a .con-a .con-left {
+  width: 700px;
+  float: left;
+  padding-top: 40px;
+}
+.conter-a .con-a .con-left .cont-b {
+  padding: 5px;
+  border-left: 5px solid red;
+  margin-bottom: 20px;
+}
+.conter-a .con-a .con-left p {
+  margin: 25px 0;
+}
+.conter-a .con-a .con-left .h-red {
+  margin: 25px 0;
+  color: red;
+}
+.conter-a .con-a .con-right {
+  width: 270px;
+  float: right;
+}
