@@ -10,23 +10,29 @@
   width: 1423px;
   height: 48px;
 }
+
 .con-head div {
   width: 330px;
   margin: auto;
 }
+
 .con-head div div {
   width: 165px;
   float: left;
   text-align: center;
 }
+
 .con-head div div a {
   color: #9c9f9e;
 }
+
 .con-head div .bot-red {
   height: 48px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-bottom: 4px solid #f7583b;
 }
+
 .con-head div .bot-red a {
   color: #f7583b;
 }
@@ -36,20 +42,25 @@
   height: 48px;
   border-top: 1px solid #acacac;
 }
+
 .cont-fot div {
   width: 540px;
   line-height: 48px;
   margin: auto;
 }
+
 .cont-fot div span {
   margin-right: 100px;
 }
+
 .cont-fot div span:nth-child(4) {
   margin-right: 0;
 }
+
 .cont-fot div span a {
   color: #9c9f9e;
 }
+
 .cont-fot div span .try-all {
   color: #2b2a2a;
 }
@@ -59,12 +70,14 @@
   background-color: #f7f7f7;
   overflow: hidden;
 }
+
 .content div {
   width: 1000px;
   margin: auto;
   overflow: hidden;
   border-radius: 5px;
 }
+
 .content div .con-1 {
   float: left;
   width: 220px;
@@ -74,9 +87,11 @@
   background-color: #ffffff;
   position: relative;
 }
+
 .content div .con-1 .img img {
   height: 130px;
 }
+
 .content div .con-1 .cont-0 {
   margin: 10px 0px 10px 0px;
   font-size: 14px;
@@ -84,12 +99,14 @@
   text-align: center;
   font-weight: bolder;
 }
+
 .content div .con-1 .cont-1 {
   overflow: hidden;
   width: 110px;
   height: 25px;
   margin: auto;
 }
+
 .content div .con-1 .cont-1 div {
   line-height: 23px;
   text-align: center;
@@ -100,20 +117,25 @@
   border: 1px solid;
   font-size: 8px;
 }
+
 .content div .con-1 .cont-1 div:nth-child(2) {
   margin-right: 0;
 }
+
 .content div .con-1 .cont-2 {
   text-align: center;
   margin: 11px 0 8px;
 }
+
 .content div .con-1 .cont-2 span {
   color: #ff4644;
 }
+
 .content div .con-1 .cont-3 {
   text-align: center;
   margin-bottom: 18px;
 }
+
 .content div .con-1 .cont-4 {
   width: 220px;
   height: 22px;
@@ -121,14 +143,17 @@
   top: 0;
   overflow: hidden;
 }
+
 .content div .con-1 .cont-4 div {
   float: right;
   text-align: center;
   line-height: 22px;
 }
+
 .content .con-fot {
   height: 125px;
 }
+
 .content .con-fot div {
   height: 125px;
   line-height: 125px;
